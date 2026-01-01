@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="دیوار"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:padding="7dp"
+        android:background="#E60000"/>
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="47dp"
+        android:onClick="okclick1"
+        android:background="@drawable/baseline_home_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="املاک"
+        android:textSize="23dp"
+        android:id="@+id/hometxt1"
+        android:onClick="okclick1"
+        android:layout_gravity="right"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="47dp"
+         />
+
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="right"
+        android:onClick="okclick2"
+        android:layout_marginTop="-76dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/baseline_directions_car_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="خودرو"
+        android:textSize="23dp"
+        android:onClick="okclick2"
+        android:layout_gravity="right"
+        android:layout_marginTop="-3dp"
+        android:layout_marginRight="135dp" />
+
+
+
+    <ImageView
+        android:id="@+id/mobile"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="left"
+        android:onClick="okclick3"
+        android:layout_marginTop="-76dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/baseline_mobile_friendly_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="موبایل"
+        android:textSize="23dp"
+        android:onClick="okclick3"
+        android:layout_gravity="left"
+        android:layout_marginTop="-1dp"
+        android:layout_marginLeft="155dp"/>
+
+    <ImageView
+        android:id="@+id/varzshi"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="left"
+        android:onClick="okclick4"
+        android:layout_marginTop="-76dp"
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/baseline_kitesurfing_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ورزش"
+        android:textSize="23dp"
+        android:onClick="okclick4"
+        android:layout_gravity="left"
+        android:layout_marginTop="-1dp"
+        android:layout_marginLeft="60dp"/>
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="همه ی آگهی ها ..."
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="بیرجند"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="-55dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="9dp"
+        android:background="@drawable/baseline_location_on_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:text="منزل ویلایی خیابان معلم (معلم 22)"
+        android:textSize="22dp"
+        android:padding="8dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="قیمت : 1.500.000.000 تومان"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="فروخته شد"
+        android:textColor="#C50000"
+        android:layout_marginTop="12dp"
+        android:textSize="25dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="144dp"
+        android:background="@drawable/_024_01_07_02_27_23"
+        android:layout_gravity="left"
+        android:layout_marginTop="-155dp"
+        android:layout_marginLeft="2dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:text="سامسونگ Galexy M51 حافظه 128"
+        android:textSize="22dp"
+        android:padding="8dp"
+        android:layout_marginTop="1dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="قیمت : 7.000.000 تومان"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="نردبان شده"
+        android:textColor="#C50000"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="144dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/_024_01_07_16_59_58" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+
+
+
+</LinearLayout>

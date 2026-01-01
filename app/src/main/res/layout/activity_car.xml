@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="خودرو"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:background="#E60000"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:text="دنا پلاس توربو شارژ سال"
+        android:textSize="22dp"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="قیمت : 700.000.000 تومان"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:padding="8dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="در حد نو"
+        android:textColor="#C50000"
+        android:layout_marginTop="12dp"
+        android:textSize="25dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/ba"
+        android:layout_width="170dp"
+        android:layout_height="144dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="-155dp"
+        android:background="@drawable/_024_01_06_13_56_13" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:text="پژو 405 GLX بنزینی (سال 88)"
+        android:textSize="22dp"
+        android:padding="8dp"
+        android:layout_marginTop="1dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="قیمت : 210.000.000 تومان"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="معاوضه"
+        android:textColor="#C50000"
+        android:layout_marginTop="12dp"
+        android:textSize="25dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="144dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="-155dp"
+        android:background="@drawable/_024_01_07_16_49_02" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:text="تیبا 2 EX"
+        android:textSize="22dp"
+        android:padding="8dp"
+        android:layout_marginTop="1dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="قیمت : 260.000.000 تومان"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right"
+        android:text="فوری"
+        android:textColor="#C50000"
+        android:layout_marginTop="-12dp"
+        android:textSize="25dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="144dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/_024_01_07_16_52_31" />
+
+
+</LinearLayout>
