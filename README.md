@@ -30,6 +30,12 @@ If you encounter version compatibility issues, try updating the build.gradle fil
 ## Contributing
 Feel free to fork and improve! Pull requests are welcome for updates, bug fixes, or adding more categories.
 
+## Disclaimer
+This project is a UI practice inspired by the Divar application.
+All rights to the original design and brand belong to Divar.
+This project is for educational purposes only.
+https://divar.ir
+
 ## License
 This project is open-source under the MIT License.
 
